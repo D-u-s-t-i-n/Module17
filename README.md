@@ -24,4 +24,6 @@ Balanced Accuracy score is 0.650188
 I noticed that the starter code output has the solver='warning' whereas my output only allows it to 'lbfgs' by default. Some of my values do not match with that of the starter code output. I assume this may be due to a version mismatch of the dependencies.   
   
 # Recommendation  
-The low risk precision scores are all 1, but the high risk scores are all 0.01. Conservatively, I would not recommend the models for deployment because at most it is 72% accurate. But if the risks are allowable and selecting a model is required, the SMOTE oversampling seems to be the best to get the most conservative approach that detects the most bad loans. This depends on how much risk the bank is willing to cover.
+Conservatively, I would not recommend any of the above 4 models for deployment because at most it is 72% accurate. The low risk precision scores are all 1, but the high risk scores are all 0.01.  
+But if the risks are allowable and selecting a model is required, the SMOTE oversampling seems to be the best to get the most conservative approach that detects the most bad loans. This depends on how much risk the bank is willing to cover.
+A better more sophisticated machine learning model would be needed.
